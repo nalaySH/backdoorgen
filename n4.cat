@@ -18,7 +18,7 @@ cat << !
 sleep 2
 # Check root
 if [ "$(id -u)" != "0" ] > /dev/null 2>&1; then
-echo -e '\e[0;31m【!!】 02Zcat root \e[0m' 1>&2
+echo -e '\e[0;31m【!!】 n4.cat root \e[0m' 1>&2
 exit
 fi
 dir=`pwd`
